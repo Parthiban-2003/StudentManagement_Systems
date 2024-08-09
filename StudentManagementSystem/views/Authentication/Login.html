@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Login Page
+   </title>
+   <link rel="stylesheet" href="./../../assets/css/styles.css">
+</head>
+<body>
+    <div class = "Login_container"> 
+       <div> 
+         <h1>
+            Login form
+         </h1> 
+      </div> 
+         <div> 
+            <form class="Login_Form"> </form>
+             <div>
+               <label for="loginUserEmail"> Email </label><br>
+               <input type="email" id="loginUserEmail" placeholder="userEmail" required><br>
+            </div>
+
+            <div>
+               <label for="loginpassword"> Password </label><br>
+               <input type="password" id="loginPassword" placeholder="userPassword" required><br><br>
+            </div>
+            
+            <div>
+                <button type="button" onclick="LoginMethods.Login()">LOGIN</button> 
+            </div>
+         </form>
+       </div>
+    </div>
+    <script src="./../../assets/js/Authentication/Login.js"></script>
+</body>
+</html>

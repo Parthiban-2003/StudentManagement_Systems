@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Register Form
+    </title>
+    <link rel="stylesheet" href="./../../assets/css/styles.css" type="text/css">
+</head>
+<body>
+     <div class = "container">
+        <div> 
+            <h1>
+                Register Form
+            </h1> 
+        </div>
+
+         <div> 
+            <form class = "Signup_Form">
+            <div> 
+                <label for="userName"> NAME </label><br>
+                <input type="text" id="userName" placeholder="User Name" required><br>
+            </div>
+
+            <div>
+                <label for="userEmail"> EMAIL </label><br>
+                <input type="email" id="userEmail" placeholder="Email" required><br>
+            </div>
+
+            <div>
+                <label for="userPassword"> PASSWORD </label><br>
+                <input type="password" id="userPassword" placeholder="Password" required><br>
+            </div>
+
+            <div>
+                <label for="confirmPassword"> CONFIRM PASSWORD </label><br>
+                <input type="password" id="confirmPassword" placeholder="ConfirmPassword" required><br>  
+            </div><br>
+            
+            <div>
+                <button type="button" onclick="SignupMethods.RegisterPlayers()"> SUBMIT </button>
+            </div>
+            </form>
+         </div>
+     </div>
+     <script src="./../../assets/js/Authentication/Signup.js"></script>
+</body>
+</html>

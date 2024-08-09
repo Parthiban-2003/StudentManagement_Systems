@@ -1,0 +1,70 @@
+:root {
+    --font-color: #000000;
+    --text-color: #28a745;
+    --font: 'Arial', sans-serif;
+    --padding-small: 10px;
+    --padding-medium: 20px;
+  
+  }
+  /*body{
+    background: url(bg.jpg) ;
+  }*/
+ 
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+
+  h1, h2, h3 {
+    font-family: var(--font);
+    color: var(--text-color);
+  }
+  
+ 
+  form {
+    margin-top: var(--padding-medium);
+  }
+  
+  label {
+    font-weight: bold;
+    color: var(--font-color);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 100%;
+    padding: var(--padding-small);
+    margin: var(--padding-small) 0;
+    border: 1px solid var(--font-color);
+    border-radius: 5px;
+  }
+  
+  button[type="button"] {
+    background-color: var(--text-color);
+    color: #fff;
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #28a745;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid var(--font-color);
+    padding: var(--padding-small);
+    text-align: center;
+  }
+  
+ 
+  
